@@ -150,15 +150,24 @@ body,html{
     line-height: 7.2vw;
 }
 
-#hero3 h2,h3{
+.hero h2,h3{
     font-size: 7.2vw;
-    /* font-weight: 600; */
+    font-weight: 600;
     text-transform: uppercase;
     line-height: 7.2vw;
 }
-
+.hero h2{
+    border-bottom: 0.5vw solid #fff;
+    transition: border-bottom 0.3s ease, font-weight 0.3s ease;
+    
+}
+.hero h3{
+    margin-left: 0.5vw;
+    
+}
 .hero h2:hover {
     -webkit-text-stroke: 1px #fff;
     color: transparent;
     font-weight: 400;
+    border-bottom: 0.5vw solid #ffffff00;
 }

@@ -21,7 +21,7 @@ body{
     /* background-color: white; */
     border: 1px solid #ffffffb9;
     position: fixed;
-    z-index: 998;
+    z-index: 99;
     mix-blend-mode: difference;
     transform: translate(-50%,-50%);
 }
@@ -41,7 +41,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 4vw;
+    gap: 3vw;
 }
 #line1-part1{
     display: flex;
@@ -71,34 +71,34 @@ body{
     text-transform: uppercase;
     font-weight:900 ;
     opacity: 0;
-    animation-duration: 1.8s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
 }
 @keyframes anime {
     0%{
         font-family: "Plain Light";
-        -webkit-text-stroke: 0.1px #fff;
+        -webkit-text-stroke: 1px #fff;
         color: #fff;
         font-weight: 500;
         opacity: 1;
     }
-    47%{
+    48%{
         font-family: "Plain Light";
-        -webkit-text-stroke: 0.1px #fff;
+        -webkit-text-stroke: 1px #fff;
         color: #fff;
         font-weight: 500;
         opacity: 0;
     }
     50%{
         font-family: "silk serif";
-        -webkit-text-stroke: 0.1px #fff;
+        -webkit-text-stroke: 1px #fff;
         font-weight: 500;
         color: transparent;
         opacity: 1;
     }
     100%{
         font-family: "silk serif";
-        -webkit-text-stroke: 0.1px #fff;
+        -webkit-text-stroke: 1px #fff;
         font-weight: 500;
         color: transparent;
         opacity: 0;
@@ -107,13 +107,14 @@ body{
 
 #main{
     position: relative;
-    background-color: #030303;
+    background-color: #151515;
 }
 #page1{
     height: 100vh;
     width: 100%;
     background-color: #151515;
     position: relative;
+    /* z-index: 100; */
 }
 
 #page1 #nav{
@@ -138,7 +139,7 @@ body{
     width: 72%;
     margin-left: 27%;
     height: fit-content;
-    overflow-y: hidden;
+    overflow: hidden;
     display: flex;
     align-items: center;
 }
@@ -148,7 +149,7 @@ body{
     margin-top: 18vh;
 }
 .hero h1{
-    font-size: 7.1vw;
+    font-size: 7.2vw;
     font-weight: 600;
     text-transform: uppercase;
     line-height: 7.2vw;
@@ -164,6 +165,7 @@ body{
     left: 20%;
     top: 29%;
 }
+
 
 .hero h2,h3{
     font-size: 7.2vw;
@@ -207,7 +209,7 @@ body{
     height: 100%;
     width:100%;
     object-fit: cover;
-    top:0%;
+    top:0;
 }
 #video-container video{
     height: 100%;
@@ -237,7 +239,7 @@ body{
 #page3{
     min-height: 100vh;
     width: 100%;
-    background-color: #3d3d3c;
+    background-color: rgb(61, 61, 61);
     position: relative;
 }
 
